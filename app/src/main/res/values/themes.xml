@@ -5,8 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="android:statusBarColor">@color/statBar_color</item>
         <item name="colorPrimary">@color/white</item>
+
     </style>
 
     <style name="Theme.WeatherAPP" parent="Base.Theme.WeatherAPP" />

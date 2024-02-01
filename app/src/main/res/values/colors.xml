@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="card_back">#60FFFFFF</color>
+    <color name="statBar_color">#093C52</color>
+
 </resources>

@@ -116,7 +116,7 @@
     </androidx.cardview.widget.CardView>
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/TabLayout"
+        android:id="@+id/daysHoursTab"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -138,11 +138,12 @@
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/daysHoursPager"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/TabLayout"
-        app:layout_constraintStart_toStartOf="@+id/TabLayout"
-        app:layout_constraintTop_toBottomOf="@+id/TabLayout" />
+        app:layout_constraintEnd_toEndOf="@+id/daysHoursTab"
+        app:layout_constraintStart_toStartOf="@+id/daysHoursTab"
+        app:layout_constraintTop_toBottomOf="@+id/daysHoursTab" />
 </androidx.constraintlayout.widget.ConstraintLayout>
